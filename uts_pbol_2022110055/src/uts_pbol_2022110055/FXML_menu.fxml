@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_pbol_2022110055.FXML_menuController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Master">
+            <items>
+              <MenuItem fx:id="mnumastersiswa" mnemonicParsing="false" onAction="#mnumastersiswaklik" text="Master Siswa" />
+                  <MenuItem fx:id="mnumasterbuku" mnemonicParsing="false" onAction="#mnumasterbukuklik" text="Master Buku" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Transaksi">
+            <items>
+              <MenuItem fx:id="mnutransaksi" mnemonicParsing="false" onAction="#mnutransaksiklik" text="Peminjaman" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Display">
+            <items>
+              <MenuItem fx:id="mnudisplaysiswa" mnemonicParsing="false" onAction="#mnudisplaysiswaklik" text="Siswa" />
+                  <MenuItem fx:id="mnudisplaybuku" mnemonicParsing="false" onAction="#mnudisplaybukuklik" text="Buku" />
+            </items>
+          </Menu>
+            <Menu fx:id="mnukeluar" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

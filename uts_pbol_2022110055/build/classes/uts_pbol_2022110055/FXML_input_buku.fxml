@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="252.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uts_pbol_2022110055.FXML_input_bukuController">
+   <children>
+      <Label layoutX="9.0" layoutY="69.0" text="Kode Buku" />
+      <Label layoutX="9.0" layoutY="122.0" text="Penulis" />
+      <Label layoutX="9.0" layoutY="175.0" text="Judul" />
+      <Label layoutX="4.0" layoutY="230.0" text="Total Halaman" />
+      <TextField fx:id="txtkodebuku" layoutX="86.0" layoutY="69.0" />
+      <TextField fx:id="txtpenulis" layoutX="86.0" layoutY="122.0" />
+      <TextField fx:id="txtjudul" layoutX="86.0" layoutY="175.0" />
+      <TextField fx:id="txttotalhalaman" layoutX="86.0" layoutY="227.0" prefHeight="25.0" prefWidth="50.0" />
+      <Button fx:id="btnsimpan" layoutX="14.0" layoutY="277.0" mnemonicParsing="false" onAction="#simppanklik" text="Simpan" />
+      <Button fx:id="btnhapus" layoutX="97.0" layoutY="277.0" mnemonicParsing="false" onAction="#hapusklik" text="Hapus" />
+      <Button fx:id="btnkeluar" layoutX="180.0" layoutY="277.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+   </children>
+</AnchorPane>
